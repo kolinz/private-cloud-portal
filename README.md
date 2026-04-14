@@ -1,4 +1,4 @@
-# Private Cloud Portal
+# Nano Private Cloud Portal
 
 学生・小規模組織（100名規模まで）向けの **軽量プライベートクラウド管理ポータル**。
 
