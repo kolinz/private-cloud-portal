@@ -79,7 +79,7 @@ pnpm --version
 ### 4. リポジトリのクローン
 
 ```bash
-git clone https://github.com/<your-org>/private-cloud-portal.git
+git clone https://github.com/kolinz/nano-private-cloud-portal.git
 cd private-cloud-portal
 ```
 
