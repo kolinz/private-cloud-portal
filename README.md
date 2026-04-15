@@ -94,7 +94,7 @@ pnpm install
 ### 6. 環境変数の設定
 
 ```bash
-cp .env.example .env.staging
+cp packages/backend/.env.example packages/backend/.env.staging
 ```
 
 以下の項目を環境に合わせて編集します:
@@ -149,12 +149,14 @@ incus project switch default
 Incus が起動している環境:
 
 ```bash
+chmod +x dev.sh （初回実行のみ）
 ./dev.sh
 ```
 
 Incus が使えない環境（モック動作）:
 
 ```bash
+chmod +x dev.sh （初回実行のみ）
 ./dev.sh --mock
 ```
 
@@ -181,6 +183,7 @@ pnpm --filter @pcp/frontend dev
 スキーマ変更後や初期化が必要なときに実行します。
 
 ```bash
+chmod +x reset.sh （初回実行のみ）
 ./reset.sh && ./dev.sh
 ```
 
