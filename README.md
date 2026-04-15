@@ -80,7 +80,7 @@ pnpm --version
 
 ```bash
 git clone https://github.com/kolinz/nano-private-cloud-portal.git
-cd private-cloud-portal
+cd nano-private-cloud-portal
 ```
 
 ### 5. 依存パッケージのインストール
